@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="descrption"
+      content="Somos la empresa numero uno en Catering para TODO tipo de Eventos, ¡Nuestra abundancia y referencias nos abalan!"
+    />
+    <meta
+      name="keywords"
+      content="Contacto Elixir Catering, numero de caterings,contacto comida para eventos,Catering, comidas, comidas para eventeos, catering para eventos, cenas, cenas formales, cenas informales, cenas para eventos, almuerzos, fiestas, comidas para fiestas, Elixir Catering"
+    />
+    <title>Contacto</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+
+  <body class="container">
+    <header class="header--global">
+      <div class="row">
+        <div class="col-md-4 logo--header">
+          <h1 class="fw-bold">Elixir Catering</h1>
+          <h4 class="fst-italic">Puliendo el detalle..</h4>
+        </div>
+
+        <div class="col-md-8 d-flex justify-content-end">
+          <nav
+            class="navbar navbar-expand-lg navbar-light justify-content-end"
+            id=""
+          >
+            <div class="container-fluid navbar--container-fluid">
+              <a class="navbar-brand" href="#"></a>
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarNav"
+                aria-controls="navbarNav"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div
+                class="collapse navbar-collapse justify-content-end"
+                id="navbarNav"
+              >
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a
+                      class="nav-link active"
+                      aria-current="page"
+                      href="/index.html"
+                      >Nosotros</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="/archivosHTML/Quienessomos.html"
+                      >Quienes Somos</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="/archivosHTML/Menues.html"
+                      >Menues</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="/archivosHTML/Tarifas.html"
+                      >Tarifas</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="/archivosHTML/Contactos.html"
+                      >Contacto</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="container">
+        <div class="caja--form">
+          <div class="container px-20 my-5">
+            <form id="contactForm" data-sb-form-api-token="API_TOKEN">
+              <div class="mb-3">
+                <label class="form-label" for="nombre">Nombre:</label>
+                <textarea
+                  class="form-control"
+                  id="nombre"
+                  type="text"
+                  placeholder="Nombre:"
+                  style="height: 10rem"
+                  data-sb-validations="required"
+                ></textarea>
+                <div
+                  class="invalid-feedback"
+                  data-sb-feedback="nombre:required"
+                >
+                  Nombre: is required.
+                </div>
+              </div>
+              <div class="mb-3">
+                <label class="form-label" for="celular">Celular:</label>
+                <textarea
+                  class="form-control"
+                  id="celular"
+                  type="text"
+                  placeholder="Celular:"
+                  style="height: 10rem"
+                  data-sb-validations="required"
+                ></textarea>
+                <div
+                  class="invalid-feedback"
+                  data-sb-feedback="celular:required"
+                >
+                  Celular: is required.
+                </div>
+              </div>
+              <div class="mb-3">
+                <label class="form-label" for="localidad">Localidad:</label>
+                <textarea
+                  class="form-control"
+                  id="localidad"
+                  type="text"
+                  placeholder="Localidad"
+                  style="height: 10rem"
+                  data-sb-validations="required"
+                ></textarea>
+                <div
+                  class="invalid-feedback"
+                  data-sb-feedback="localidad:required"
+                >
+                  Localidad is required.
+                </div>
+              </div>
+              <div class="mb-3">
+                <label class="form-label" for="consulta">Consulta:</label>
+                <textarea
+                  class="form-control"
+                  id="consulta"
+                  type="text"
+                  placeholder="Consulta:"
+                  style="height: 10rem"
+                  data-sb-validations="required"
+                ></textarea>
+                <div
+                  class="invalid-feedback"
+                  data-sb-feedback="consulta:required"
+                >
+                  Consulta: is required.
+                </div>
+              </div>
+              <div class="d-none" id="submitSuccessMessage">
+                <div class="text-center mb-3">
+                  <div class="fw-bolder">Form submission successful!</div>
+                  <p></p>
+                  <a
+                    href="https://startbootstrap.com/solution/contact-forms"
+                  ></a>
+                </div>
+              </div>
+              <div class="d-none" id="submitErrorMessage">
+                <div class="text-center text-danger mb-3">
+                  Error sending message!
+                </div>
+              </div>
+              <div class="d-grid">
+                <button
+                  class="btn btn-primary btn-lg disabled"
+                  id="submitButton"
+                  type="submit"
+                >
+                  ¡ENVIAR!
+                </button>
+              </div>
+            </form>
+          </div>
+          <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+        </div>
+      </div>
+      <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+    </main>
+
+    <footer class="Footer">
+      <nav class="NavFooter">
+        <ul class="UlFooter">
+          <li class="LiF">
+            <a href="" class="FooterText"
+              ><i class="fab fa-whatsapp"></i> Whatsapp</a
+            >
+          </li>
+          <li class="LiF">
+            <a href="" class="FooterText">
+              <i class="fab fa-facebook"></i> Facebook</a
+            >
+          </li>
+          <li class="LiF">
+            <a href="" class="FooterText">
+              <i class="fab fa-instagram"></i> Instagram</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </footer>
+
+    <script src="bootstrap/dist/js/bootstrap.js"></script>
+  </body>
+</html>

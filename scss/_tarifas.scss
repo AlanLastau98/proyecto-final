@@ -1,0 +1,26 @@
+$color-titulo: gray;
+$margin: 2rem;
+$font: 2rem;
+
+/*HEADER*/
+.header--global {
+  margin-top: $margin * 2;
+
+  .navbar--container-fluid {
+    padding-right: 0%;
+    padding-top: 0%;
+    margin-top: 0%;
+
+    .navbar-brand {
+      padding: 0%;
+
+      #navbarNav {
+        font-size: $font/1.5;
+      }
+    }
+  }
+  .logo--header {
+    margin-top: $margin * 2;
+    color: $color-titulo;
+  }
+}

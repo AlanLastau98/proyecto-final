@@ -1,0 +1,72 @@
+$color-titulo: gray;
+$margin: 2rem;
+$font: 2rem;
+
+/*HEADER*/
+
+.navbar--container-fluid {
+  padding-right: 0%;
+  padding-top: 2rem;
+  margin-top: 2rem;
+
+  .navbar-brand {
+    padding: 0%;
+
+    #navbarNav {
+      font-size: $font * 3;
+    }
+  }
+}
+.nav-link {
+  font-size: $font/1.5;
+}
+.logo--header {
+  color: $color-titulo;
+  margin-bottom: 3rem;
+}
+
+/*INDEX*/
+.caja--index {
+  margin-top: 2rem;
+  padding-top: 2rem;
+}
+.titulo--index {
+  color: $color-titulo;
+  margin-top: $margin * 2;
+}
+.subtitulo--index {
+  font-size: 1.4rem;
+}
+
+.Texto--Index {
+  font-size: $font/1.3;
+  color: $color-titulo;
+}
+
+.img--index {
+  margin-top: 2rem;
+  border-radius: 1rem;
+}
+//*condicionales*//
+$texto: bicicleta;
+.titulo--index {
+  @if $texto == avion {
+    color: blue;
+  } @else if $texto == animal {
+    color: chartreuse;
+  } @else if $texto == bicicleta {
+    color: gray;
+  } @else {
+    color: black;
+  }
+}
+//*Bucles*//
+
+@for $i from 1 through 5 {
+  .clase-#{$i} {
+    width: 2rem * $i;
+    height: 2rem * $i;
+    background-color: green;
+    margin-left: $i * 1rem;
+  }
+}
