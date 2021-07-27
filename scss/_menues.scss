@@ -30,10 +30,17 @@ $font: 2rem;
   .SubInformales {
     color: $color-titulo;
     font-size: $font;
+    margin-top: 2%;
   }
   .TextoInformales {
-    font-size: $font/1.5;
+    font-size: $font/1.2;
+    margin-top: 1.2%;
+    padding-right: 5%;
   }
+}
+.img--menu-informales {
+  margin-top: 3%;
+  margin-bottom: 3%;
 }
 .contenedor-formales {
   margin-top: 4rem;
@@ -42,6 +49,8 @@ $font: 2rem;
     font-size: $font;
   }
   .TextoFormales {
-    font-size: $font/1.5;
+    font-size: $font/1.2;
+    margin-top: 1.2%;
+    padding-right: 5%;
   }
 }

@@ -43,12 +43,17 @@
 }
 
 .img--index {
-  margin-top: 2rem;
-  border-radius: 1rem;
+  margin-top: 0.7rem;
+  border-radius: 0.8rem;
 }
 
 .LiBB {
   list-style: none;
+}
+
+.my-9 {
+  margin-left: 40%;
+  margin-top: 5%;
 }
 
 .titulo--index {
@@ -160,10 +165,18 @@
 .div-informales .SubInformales {
   color: gray;
   font-size: 2rem;
+  margin-top: 2%;
 }
 
 .div-informales .TextoInformales {
-  font-size: 1.33333rem;
+  font-size: 1.66667rem;
+  margin-top: 1.2%;
+  padding-right: 5%;
+}
+
+.img--menu-informales {
+  margin-top: 3%;
+  margin-bottom: 3%;
 }
 
 .contenedor-formales {
@@ -176,7 +189,9 @@
 }
 
 .contenedor-formales .TextoFormales {
-  font-size: 1.33333rem;
+  font-size: 1.66667rem;
+  margin-top: 1.2%;
+  padding-right: 5%;
 }
 
 /*HEADER*/
@@ -201,6 +216,23 @@
 .header--global .logo--header {
   margin-top: 4rem;
   color: gray;
+}
+
+.tablas {
+  border: gray 0.2rem solid;
+}
+
+.tablas .trs {
+  border: gray 0.1rem solid;
+}
+
+.tablas .td {
+  border: gray 0.1rem solid;
+}
+
+.BVMyBRS {
+  margin-top: 5%;
+  margin-left: 40%;
 }
 
 /*HEADER*/
